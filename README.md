@@ -1,2 +1,2 @@
 # Fashion-Iccon
-Online clothing Store
+Online clothing Store app
