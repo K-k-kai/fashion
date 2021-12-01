@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_style"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/prodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Product Name"/>
+    <ImageView
+        android:id="@+id/prod_image"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="180dp"
+        android:src="@drawable/dress"/>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Ksh"/>
+        <TextView
+            android:id="@+id/prod_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="150"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/addproduct"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_style"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:text="+ Add to cart"/>
+
+</LinearLayout>
